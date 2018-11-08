@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Women's share of the workforce around the world</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="jquery-jvectormap-2.0.3.min.js"></script>
+        <script src="jquery-jvectormap-world-mill.js"></script>
+        <script src="data.js"></script>
+    </head>
+    <body>
+        <div id="everythingelse">
+            <h1> Womens Share of the Workforce all over the world </h1>
+            <p class='paragraph'>
+            Gender inequality in the work force is a very common issue in our day and age, and this website will help visualize this problem. I pulled data from the United Nations <a href="http://data.un.org/Data.aspx?d=GenderStat&f=inID%3a107">Here</a>,
+            which shows women's share of the workforce in multilpe countries over a period of 20 years ending in 2006.
+            This website only shows data for the most recent available date (2006).
+            </p>
+            <div id='buttons'>
+                <form>
+                    <input type="button" value="Proceed to the website" onclick="toggleSite()" />
+                </form>
+            </div>
+        </div>
+        <div id="world-map"> </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
