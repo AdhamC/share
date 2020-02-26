@@ -12,7 +12,7 @@ $('#world-map').vectorMap({
       values: dataset,
       // the colors of the minimum and maximum of the data, the library
       // handles the coloration in between
-      scale: ['#fc8d59', '#91bfdb'],
+      scale: ['#ff6978', '#b1ede8'],
       // The 2 options are linear and polynomial, I felt linear highlights
       // my data better in this scenario
       normalizeFunction: 'linear',
